@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css" type="text/css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="main" >
+        <div class="register">
+
+            <h2 style="color: rgb(105, 90, 236);">Register Here</h2>
+            <form id="register" method="post">
+                <label>First Name</label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter your First name">
+                <br><br>
+                <label >Last Name</label>
+                <br>
+                <input type="text" name="lname" id="name" placeholder="Enter your lname name">
+                <br><br>
+                <label>Email</label>
+                <br>
+                <input type="text" name="email" id="name" placeholder="Enter your email">
+                <br><br>
+                <label>Gender</label>
+                <br>
+                <input type="radio" name="gender" id="Male" > 
+                <span id="male">Male</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" id="Female" > 
+                <span id="Female">Female</span>
+                <br><br>
+                <label>Known Language</label>
+                <br>
+                <input type="checkbox" name="Language" id="Language">
+                <span id="Telugu">Telugu</span>
+                <input type="checkbox" name="Language" id="Hindi">
+                <span id="Hindi">Hindi</span>
+                <input type="checkbox" name="Language" id="English">
+                <span id="English">English</span>
+                &nbsp;&nbsp;&nbsp;
+                <br> 
+                <input type="checkbox" name="other" id="other">
+                <span id="other">Other</span>
+                <input type="textbox" name="others" id="other">
+                <br> <br>
+                <label>Select State</label>
+                &nbsp;
+                <select name="state" id="name">
+                    <option selected value="Telangana">Telangana</option>
+                    <option value="AndhraPradesh">Andhra Pradesh</option>
+                    <option value="MadhyaPradesh">MadhyaPradesh</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Tamilnadu">Tamilnadu</option>
+                    <option value="Uttarpradesh">Uttarpradesh</option>
+
+                </select>
+                <br><br>
+                <label>Select County</label>
+                &nbsp;
+                <select name="County" id="name">
+                    <option selected value="India">India</option>
+                    <option value="Japan">Japan</option>
+                    <option value="America">America</option>
+                    <option value="China">China</option>
+                  
+
+                </select>
+                <br><br>
+
+                <input type="submit" value="submit" name="submit" id="submit">
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+/*navigation bar*/
+ul{
+    margin: 0;
+    padding: 0px 40px 0px;
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(233, 186, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+li{
+    margin: 0;
+    border-radius: 10px;
+    padding: 0px 10px 0px;
+    float: left;
+}
+a{
+    border-radius: 10px;
+    margin-left: 0%;
+    display: block;
+    padding: 0px 70px ;
+    color: #fff;
+    text-decoration: none;
+ }
+ a:hover,.active{
+
+     background-color: blue;
+
+ }
+ 
+ .block a{
+    background-color: rgb(125, 53, 240);
+}
+.blue a{
+    background-color: rgb(11, 104, 34);
+}
+.red a{
+    background-color: rgb(216, 31, 124);
+}
+.white a{
+    background-color: rgb(80, 41, 221);
+}
+
+/*home screen*/
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: burlywood;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+}
+
+.home h2 {
+    font-size: 180%;
+    border-style: solid;
+    padding: 20px;
+    border-width: 120%;
+}
+
+.home h3 {
+    padding-top: 20px;
+    position: relative;
+    left: 30%;
+}
+
+/*about us*/
+.info {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background-color: burlywood;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+}
+ /*Table*/
+    
+ table,
+ th,
+ td {
+     text-align: center;
+     border: 1px solid black;
+     padding: 2px;
+ }
+ 
+ td {
+     padding: 15px;
+ }
+ 
+ table {
+     margin-top: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: blanchedalmond;
+ }
+ 
+ .wrapper2 tr:not(:first-child):hover {
+     background-color: #ffff99;
+ }
+ /*Course Table*/
+ 
+ .course_list {
+     border-collapse: separate;
+     border-width: 0;
+     width: 80%;
+     height: 50%;
+     border-spacing: 15px;
+ }

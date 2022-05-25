@@ -1,0 +1,208 @@
+    /*Nav Bar Style*/
+    
+    .topnav {
+        background-color: rgb(32, 22, 22);
+        overflow: hidden;
+    }
+    
+    .topnav a {
+        width: 15%;
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: rgb(82, 82, 82);
+    }
+    /*LogIn Form Style*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    .wrapper {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: burlywood;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+    }
+    
+    .wrapper h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #332902;
+    }
+    
+    .wrapper .input_field {
+        margin-bottom: 10px;
+    }
+    
+    .wrapper .input_field input[type="textarea"] {
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        padding: 1px
+    }
+    
+    .wrapper textarea {
+        height: 80px;
+        resize: none;
+    }
+    
+    .wrapper .btn input[type="button"] {
+        border: 0;
+        margin-top: 15px;
+        padding: 10px;
+        width: 100%;
+        background-color: #fece0c;
+        color: #332902;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    
+    .button {
+        border: 0;
+        margin-top: 15px;
+        padding: 10px;
+        width: 40%;
+        background-color: #fece0c;
+        color: #332902;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:link,
+    a:visited {
+        color: blue;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    /*Table*/
+    
+    table,
+    th,
+    td {
+        text-align: center;
+        border: 1px solid black;
+        padding: 2px;
+    }
+    
+    td {
+        padding: 15px;
+    }
+    
+    table {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: blanchedalmond;
+    }
+    
+    .wrapper2 tr:not(:first-child):hover {
+        background-color: #ffff99;
+    }
+    /*Course Table*/
+    
+    .course_list {
+        border-collapse: separate;
+        border-width: 0;
+        width: 80%;
+        height: 50%;
+        border-spacing: 15px;
+    }
+    /*Home Screen*/
+    
+    .home {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: burlywood;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+    }
+    
+    .home h2 {
+        font-size: 230%;
+        border-style: solid;
+        padding: 20px;
+        border-width: 100%;
+    }
+    
+    .home h3 {
+        padding-top: 20px;
+        position: relative;
+        left: 40%;
+    }
+    /*About us*/
+    
+    .info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: burlywood;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+    }
+    /*Log In*/
+    
+    .wrapper1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: burlywood;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+    }
+    
+    .wrapper1 h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #332902;
+    }
+    
+    .wrapper1 .btn input[type="button"] {
+        border: 0;
+        margin-top: 15px;
+        padding: 10px;
+        width: 100%;
+        background-color: #fece0c;
+        color: #332902;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+    }
